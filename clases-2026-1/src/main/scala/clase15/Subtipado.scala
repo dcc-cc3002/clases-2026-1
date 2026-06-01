@@ -55,6 +55,9 @@ object Subtipado {
   no typechequea
    */
 
+
+
+    
   trait Tipo:
     def isSubtype(other: Tipo): Boolean
     def isTipoFuncionSubType(f: TipoFuncion): Boolean
